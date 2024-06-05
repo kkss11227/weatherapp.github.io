@@ -1,7 +1,7 @@
 
 function abc(city){
     let api="adb28e0c7cfdb24c467a8f00a92fcb64";
-    let geo=`http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${api}`;
+    let geo=`https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${api}`;
     return new Promise(async (resolve,reject)=>{
         try{
             let {data}=await axios.get(geo);
