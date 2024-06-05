@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="axios.min.js"></script>
+
+</head>
+<body>
+
+    <div class="center">
+            
+        <div class="logo">
+            <img src="App_Logo.png" alt="Weather Logo" class="app_logo">
+        </div>
+
+        <div class="form">
+            <input type="text" name="loaction" placeholder="  Enter Location Here..." class="inp">
+            <button type="submit" class="btn">Search</button>
+        </div>
+        
+        <section class="hidden">
+            
+            <div class="today">
+                <h3>Today</h3>
+   
+                <div class="todayData">
+                   
+                   <div class="venue">
+                       <div class="todayDate data"></div>
+                       <div class="location data"></div>
+                   </div>
+   
+                   <div class="tempDesc">
+                        <img src="https://cdn-icons-png.flaticon.com/128/1163/1163657.png" alt="temp" style="width: 50px; height: 50px;">
+                       <div class="temp data"></div>
+                       <div class="Description data"></div>
+                   </div>
+   
+                </div>
+   
+                <div class="weatherDetails">
+   
+                   <div class="rain data"></div>
+                   <div class="humidity data"></div>
+                   <div class="wind data"></div>
+   
+                </div>
+   
+            </div>
+
+            <div class="anotherDays">
+
+                <div class="day2">
+
+                    <div class="date2 data"></div>
+                    <div class="temp2 data"></div>
+                    <div class="desc2 data"></div>
+
+                </div>
+                
+                <div class="day3">
+                    
+                    <div class="date3 data"></div>
+                    <div class="temp3 data"></div>
+                    <div class="desc3 data"></div>
+
+                </div>
+
+                <div class="day4">
+                    
+                    <div class="date4 data"></div>
+                    <div class="temp4 data"></div>
+                    <div class="desc4 data"></div>
+
+                </div>
+
+            </div>
+   
+       </div>
+        </section>
+        
+
+    <ul class="weatherList"></ul>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

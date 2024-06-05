@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+}
+body{
+    /* background-color: lightgoldenrodyellow; */
+    background-image: url("https://img.freepik.com/premium-photo/there-is-dark-picture-mountain-lake-with-boat-it-generative-ai_900814-4276.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 5px;
+}
+
+.center{
+    width: 70%;
+    /* height: ; */
+    margin: 20px auto;
+    /* border: 2px solid red; */
+}
+
+.inp{
+    width: 70%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.btn{
+    width: 20%;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.app_logo{
+    width: 80px;
+    height: 80px;
+}
+
+.logo{
+    width: 10%;
+    margin: 0px auto;
+}
+
+form{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.weatherList{
+    left: 0;
+    font-size: 25px;
+    width: 50%;
+    margin: 30px 30px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.info-head{
+    font-weight:550;
+    color:darkmagenta;
+}
+
+.info-text{
+    font-weight:lighter;
+    color: blueviolet;
+}
+
+.place{
+    margin-top:50px;
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+.today,.day2,.day3,.day4{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    box-shadow: 5px 10px 5px #ccc;
+}
+
+.displayBorder{
+    box-shadow: 5px 10px 5px #ccc;
+}
+
+.hidden{
+    display: none;
+}
+
+.display{
+    display: block;
+}
+
+.todayData{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anotherDays{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weatherDetails{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rain,.humidity,.wind{
+    width: 30%;
+}
+
+.day2,.day3,.day4{
+    width: 30%;
+}
+
+.data{
+    padding: 5px;
+}
